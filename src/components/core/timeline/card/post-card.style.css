@@ -1,0 +1,38 @@
+.post-card {
+  width: 100%;
+  max-width: 350px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  border: 1px solid #333333;
+  border-radius: 8px;
+
+  padding: 16px;
+  margin-bottom: 24px;
+}
+
+.post-card h2 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: #333333;
+  text-transform: uppercase;
+}
+
+.post-card p {
+  text-align: justify;
+  color: #616161;
+}
+
+.post-card .post-info {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 8px;
+}

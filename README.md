@@ -80,7 +80,7 @@ Exemplo de função de retorno do service function:
 
 `const [state, setState] = useState<type[]>([])`
 
-- Criar função responsável por chamar o service e executar a função do service para receber os dados da `API` e salvar os dados no `state`.  
+- Criar função responsável para chamar o service e executar a função do service para receber os dados da `API` e salvar os dados no `state`.  
   (Recomendo a utilização do hook `useCallback`), exemplo:
 
 `const loadData = useCallback(async () => {`  
